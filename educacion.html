@@ -51,8 +51,40 @@
         </tr>
       </tbody>
     </table>
+
     <br/>
-    
+
+    <form>
+      <fieldset>
+        <legend>Agregar estudios</legend>
+
+        <strong>Año:</strong><br/>
+        <select id="inputAnio">
+          <option>2016</option>
+          <option>2017</option>
+          <option>2018</option>
+          <option>2019</option>
+          <option>2020</option>
+          <option>2021</option>
+          <option>2022</option>
+          <option>2023</option>
+        </select><br/>
+
+        <strong>Institución: </strong><br/>
+        <input id="inputInstitucion" type="text" placeholder="Ingrese Institución" required /><br/>
+
+        <strong>Lugar: </strong><br/>
+        <textarea id="inputLugar" cols="40" rows="2" placeholder="Ej: Montevideo, Uruguay" required></textarea><br/>
+
+        <strong>¿Culminó?:</strong><br/>
+        <input type="radio" name="inputCulmino" id="inputCulmino" checked>Sí
+        <input type="radio" name="inputCulmino" id="inputCulmino">No<br/>
+        <br/>
+        <input type="submit" value="Enviar">
+
+      </fieldset>
+    </form><br/>
+
     <footer>
       <strong><em>Teléfono:</em></strong> +598 45423859<br/>
       <strong><em>Dirección:</em></strong> Mortalena 205, Carmelo, Uruguay<br/>
